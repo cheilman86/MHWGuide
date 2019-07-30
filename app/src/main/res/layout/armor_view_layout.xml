@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/listview_item_shape"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/tv_SetName"
+            style="@style/TitleStyle2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="33.3"
+            android:gravity="center"
+            android:text="Set_Name_Here"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="33.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/element_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/defense" />
+
+            <TextView
+                android:id="@+id/slots_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/decoration_slots" />
+
+            <TextView
+                android:id="@+id/ailments_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_fire" />
+
+            <TextView
+                android:id="@+id/weakness_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_water" />
+
+            <TextView
+                android:id="@+id/resistances_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_thunder" />
+
+            <TextView
+                android:id="@+id/locations_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_ice" />
+
+            <TextView
+                android:id="@+id/vs_Dragon"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_dragon" />
+
+            <TextView
+                android:id="@+id/set_Bonus_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/set_bonuses" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="33.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_defense"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/element_title"
+                android:gravity="center" />
+
+
+            <TextView
+                android:id="@+id/tv_slots"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/slots_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_fire_def"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ailments_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_water_def"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/weakness_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_thunder_def"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/resistances_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_ice_def"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/locations_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_dragon_def"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/vs_Dragon"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_set_bonus"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/set_Bonus_title"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mhw_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/greatSword_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/gs_rank1_2"
+                    android:text="Great Sword"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/longSword_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/ls_rank1_2"
+                    android:text="Long Sword"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/dualBlades_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/db_rank1_2"
+                    android:text="Dual Blades"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/swordnShield_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/sns_rank1_2"
+                    android:text="Sword and Shield"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/hammer_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/hammer_rank1_2"
+                    android:text="Hammer"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/huntingHorn_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/hh_rank1_2"
+                    android:text="Hunting Horn"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/lance_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/lance_rank1_2"
+                    android:text="Lance"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/gunlance_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/gl_rank1_2"
+                    android:text="Gun Lance"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/switchAxe_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/sa_rank1_2"
+                    android:text="Switch Axe"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/chargeBlade_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/cb_rank1_2"
+                    android:text="Charge Blade"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/insectGlaive_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/ig_rank1_2"
+                    android:text="Insect Glaive"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/lightBowGun_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/lbg_rank1_2"
+                    android:text="Light Bowgun"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/heavyBowGun_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/hbg_rank1_2"
+                    android:text="Heavy Bowgun"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/bow_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/bow_rank1_2"
+                    android:text="Bow"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/kinsect_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawablePadding="12dp"
+                    android:drawableTop="@drawable/db_rank1_2"
+                    android:text="Kinsects"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

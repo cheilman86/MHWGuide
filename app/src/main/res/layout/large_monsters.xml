@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mhw_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TableLayout
+            android:id="@+id/lrg_mon_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:showDividers="beginning|middle|end"
+            android:visibility="visible">
+
+            <TableRow
+                android:id="@+id/lrg_mon_row1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/anjabtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_anjanath_icon"
+                    android:text="@string/anja"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/barrbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_barroth_icon"
+                    android:text="@string/barr"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/bazebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_bazelgeuse_icon"
+                    android:text="@string/bazel"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/devbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_deviljho_icon"
+                    android:text="@string/devil"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:showDividers="beginning|middle|end">
+
+                <Button
+                    android:id="@+id/diabbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_diablos_icon"
+                    android:text="@string/diablos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/blkdiabbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_black_diablos_icon"
+                    android:text="@string/blkdia"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/dogobtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_dodogama_icon"
+                    android:text="@string/dodo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/girrosbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_great_girros_icon"
+                    android:text="@string/grtgir"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/jargasbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_great_jargas_icon"
+                    android:text="@string/grtjar"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/jyurbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_jyuratodus_icon"
+                    android:text="@string/jyrua"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/krinbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_kirin_icon"
+                    android:text="@string/kirin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/kulubtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_kulu_ya_ku_icon"
+                    android:text="@string/kulu"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/kulvebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_kulve_taroth_icon"
+                    android:text="@string/kulve_taroth"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/kushbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_kushala_daora_icon"
+                    android:text="@string/kush"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/lavabtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_lavasioth_icon"
+                    android:text="@string/lava"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/legbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_legiana_icon"
+                    android:text="@string/legi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/odogbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_odogaron_icon"
+                    android:text="@string/odog"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/nergbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_nergigante_icon"
+                    android:text="@string/nerg"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/paolubtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_paolumu_icon"
+                    android:text="@string/paol"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/pukeibtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_pukei_pukei_icon"
+                    android:text="@string/pukei"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/radobtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_radobaan_icon"
+                    android:text="@string/radob"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/rathobtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_rathalos_icon"
+                    android:text="@string/ratha"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/azrathobtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_azure_rathalos_icon"
+                    android:text="@string/azure"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/rathibtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_rathian_icon"
+                    android:text="@string/rathi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/pnkrathibtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_pink_rathian_icon"
+                    android:text="@string/pnkrath"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/tesotrabtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_teostra_icon"
+                    android:text="@string/teost"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/tobibtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_tobi_kadachi_icon"
+                    android:text="@string/tobi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/tzitzibtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_tzitzi_ya_ku_icon"
+                    android:text="@string/tiztzi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/lrg_mon_row8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/uragbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_uragaan_icon"
+                    android:text="@string/urag"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/vaalbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_vaal_hazak_icon"
+                    android:text="@string/vaal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/xenobtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_xenojiiva_icon"
+                    android:text="@string/xeno"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/zorahbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/lrg_zorah_magdaros_icon"
+                    android:text="@string/zorah"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

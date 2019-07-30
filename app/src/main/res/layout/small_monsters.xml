@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mhw_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/small_mon_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:showDividers="beginning|middle|end"
+            tools:layout_margin="32dp">
+
+            <TableRow
+                android:id="@+id/small_mon_row1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:showDividers="beginning|middle|end">
+
+                <Button
+                    android:id="@+id/Apcerosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_apceros_icon"
+                    android:text="@string/apceros"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Aptonothbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_aptonoth_icon"
+                    android:text="@string/aptonoth"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Barnosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_barnos_icon"
+                    android:text="@string/barnos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Gajaubtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_gajau_icon"
+                    android:text="Gajau"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/small_mon_row2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:showDividers="beginning|middle|end">
+
+                <Button
+                    android:id="@+id/Gastodonbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_gastodon_icon"
+                    android:text="@string/gastodon"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Girrosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_girros_icon"
+                    android:text="@string/girros"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Hornetaurbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_hornetaur_icon"
+                    android:text="@string/hornetaur"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Jagrasbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_jagras_icon"
+                    android:text="@string/jagras"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/small_mon_row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:showDividers="beginning|middle|end">
+
+                <Button
+                    android:id="@+id/Kelbibtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_kelbi_icon"
+                    android:text="@string/kelbi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Kestodonbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_kestodon_icon"
+                    android:text="@string/kestodon"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Mernosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_mernos_icon"
+                    android:text="@string/mernos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Mosswinebtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_mosswine_icon"
+                    android:text="@string/mosswine"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/small_mon_row4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:showDividers="beginning|middle|end">
+
+                <Button
+                    android:id="@+id/Noiosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_noios_icon"
+                    android:text="@string/noios"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Raphinosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_raphinos_icon"
+                    android:text="@string/raphinos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Shamosbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_shamos_icon"
+                    android:text="@string/shamos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <Button
+                    android:id="@+id/Vespoidbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item_shape"
+                    android:drawableTop="@drawable/sml_vespoid_icon"
+                    android:text="@string/vespoid"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

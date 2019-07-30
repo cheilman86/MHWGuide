@@ -1,0 +1,122 @@
+<resources>
+    // App General
+    <string name="appversion">App Version 1.2.7</string>
+    <string name="databaseversion">Database Version: 7.0</string>
+    <string name="app_name">MHW: Resource Guide</string>
+    <string name="app_label">MHW: Resource Guide</string>
+    <string name="email_contact">MHWResourceGuide@ndakgamers.info</string>
+    <string name="search_hint">Search for Monsters, Gear, Items, etc.</string>
+    <string name="no_results">Sorry, there are no results</string>
+
+    // News Section
+    <string name="welcome_sign">Monster Hunter World: Resource Guide</string>
+    <string name="news_update">Added current armors, weapons, charms, and items. <br>
+        Will add more throughout the weeks and will open discussion for asked for improvements.</br></string>
+
+    // Nav Drawer
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    // Titles
+    <string name="home_title">Home / News</string>
+    <string name="large_monsters_title">Large Monsters</string>
+    <string name="small_monsters_title">Small Monsters</string>
+    <string name="weapons_title">Weapons</string>
+    <string name="armors_title">Armors</string>
+    <string name="charms_title">Charms</string>
+    <string name="items_title">Items</string>
+
+
+    // Monster Names
+    <string name="anja">Anjanath</string>
+    <string name="azure">Azure Rathalos</string>
+    <string name="barr">Barroth</string>
+    <string name="bazel">Bazelgeuse</string>
+    <string name="blkdia">Black Diablos</string>
+    <string name="devil">Deviljho</string>
+    <string name="diablos">Diablos</string>
+    <string name="dodo">Dodogama</string>
+    <string name="grtgir">Great Girros</string>
+    <string name="grtjar">Great Jargas</string>
+    <string name="jyrua">Jyuratodus</string>
+    <string name="kirin">Kirin</string>
+    <string name="kulu">Kulu-Ya-Ku</string>
+    <string name="kush">Kushala Daora</string>
+    <string name="lava">Lavasioth</string>
+    <string name="legi">Legiana</string>
+    <string name="nerg">Nergigante</string>
+    <string name="odog">Odogaron</string>
+    <string name="paol">Paolumu</string>
+    <string name="pnkrath">Pink Rathian</string>
+    <string name="pukei">Pukei-Pukei</string>
+    <string name="radob">Radobaan</string>
+    <string name="ratha">Rathalos</string>
+    <string name="rathi">Rathian</string>
+    <string name="teost">Teostra</string>
+    <string name="tobi">Tobi Kadachi</string>
+    <string name="tiztzi">Tzitzi-Ya-Ku</string>
+    <string name="urag">Uragaan</string>
+    <string name="vaal">Vaal Hazak</string>
+    <string name="xeno">Xeno-jiiva</string>
+    <string name="zorah">Zorah Magdaros</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="monster_menu_title">Monsters</string>
+    <string name="weapons_armors_charms_title">Weapons // Armors // Charms</string>
+    <string name="palico_gear_title">Palico Gear</string>
+
+    // Armor Table
+    <string name="list">List</string>
+    <string name="defense">Defense: </string>
+    <string name="decoration_slots">Decoration Slots:</string>
+    <string name="vs_fire">Vs. Fire:</string>
+    <string name="vs_water">Vs. Water:</string>
+    <string name="vs_thunder">Vs. Thunder:</string>
+    <string name="vs_ice">Vs. Ice:</string>
+    <string name="vs_dragon">Vs. Dragon:</string>
+    <string name="set_bonuses">Set Bonuses:</string>
+    <string name="set_skills">Set Skills:</string>
+    <string name="set_name_here">Set_Name_Here</string>
+
+    // Palico Tables
+    <string name="proficiency">Proficiency:</string>
+    <string name="effects">Effects:</string>
+    <string name="how_to_obtain">How to Obtain:</string>
+
+    // Monster Tables
+    <string name="element">Element: </string>
+    <string name="ailments">Ailments: </string>
+    <string name="weakness">Weakness: </string>
+    <string name="resistances">Resistances: </string>
+    <string name="locations">Locations: </string>
+
+    // Weapon Tables
+    <string name="attack">Attack: </string>
+    <string name="tree">Attack: </string>
+    <string name="affinity">Attack: </string>
+    <string name="slots">Attack: </string>
+    <string name="elderseal">Attack: </string>
+
+    // Small Monsters
+    <string name="apceros">Apceros</string>
+    <string name="aptonoth">Aptonoth</string>
+    <string name="barnos">Barnos</string>
+    <string name="gastodon">Gastodon</string>
+    <string name="girros">Girros</string>
+    <string name="hornetaur">Hornetaur</string>
+    <string name="jagras">Jagras</string>
+    <string name="kelbi">Kelbi</string>
+    <string name="kestodon">Kestodon</string>
+    <string name="mernos">Mernos</string>
+    <string name="mosswine">Mosswine</string>
+    <string name="noios">Noios</string>
+    <string name="raphinos">Raphinos</string>
+    <string name="shamos">Shamos</string>
+    <string name="vespoid">Vespoid</string>
+    <string name="rarity">Rarity:</string>
+    <string name="kulve_taroth">Kulve Taroth</string>
+
+</resources>

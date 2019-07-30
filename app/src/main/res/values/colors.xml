@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6c6c6c</color>
+    <color name="colorPrimaryDark">#434343</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorBlack">#c8000000</color>
+    <color name="colorBrightWhite">#ffffff</color>
+    <color name="colorDarkGrey">#313131</color>
+    <color name="DarkRed">#790000</color>
+    <color name="DarkGreen">#066000</color>
+    <color name="DarkGreenTrans">#cf066000</color>
+    <color name="DarkBlue">#00268e</color>
+    <color name="ButtonBackground">#aa545454</color>
+</resources>

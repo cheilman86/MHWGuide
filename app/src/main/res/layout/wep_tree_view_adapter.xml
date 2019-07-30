@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_master_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/wep_layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview_item_shape"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp">
+
+        <ImageView
+            android:id="@+id/iv_rank_pic"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/gs_rank1_2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weapon_title"
+                style="@style/TitleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Title" />
+
+            <TextView
+                android:id="@+id/tv_Tree"
+                style="@style/TitleStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="Tree" />
+
+            <TextView
+                android:id="@+id/tv_Atk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="Atk" />
+
+            <TextView
+                android:id="@+id/tv_Affinity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="Affinity" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_element"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/element_dragon" />
+
+                <TextView
+                    android:id="@+id/tv_Element"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Element" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_Slots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slots" />
+
+            <TextView
+                android:id="@+id/tv_Elder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elderseal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

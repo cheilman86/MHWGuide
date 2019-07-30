@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_wepRankImg"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/gs_rank1_2" />
+
+            <TextView
+                android:id="@+id/tv_weaponTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weapon_title_here" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_wepAttack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="attack_here" />
+
+                <TextView
+                    android:id="@+id/tv_wepAffinity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="affinity_here" />
+
+                <TextView
+                    android:id="@+id/tv_wepSharpness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sharpness_here" />
+
+                <TextView
+                    android:id="@+id/tv_wepSlots"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="slots_here" />
+
+                <TextView
+                    android:id="@+id/tv_wepElderseal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="elderseal_here" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+</RelativeLayout>

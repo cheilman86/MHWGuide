@@ -1,0 +1,153 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/listview_item_shape">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/monsterName1"
+                style="@style/TitleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/set_name_here"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/element_title"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/element"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/monEle2"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/ailment_title"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/ailments"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/monAil3"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/weakness_title"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/weakness"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/monWeak4"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/resistance_title"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/resistances"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/monResist5"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/location_title"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/locations"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/monLoc6"
+                style="@style/ListStyles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

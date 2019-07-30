@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/listview_item_shape"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/tvpalico1"
+            style="@style/ListStyles"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="33.3"
+            android:gravity="center"
+            android:text="Set_Name_Here"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="33.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/element_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/defense" />
+
+            <TextView
+                android:id="@+id/ailments_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_fire" />
+
+            <TextView
+                android:id="@+id/weakness_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_water" />
+
+            <TextView
+                android:id="@+id/resistances_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_thunder" />
+
+            <TextView
+                android:id="@+id/locations_title"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_ice" />
+
+            <TextView
+                android:id="@+id/vs_Dragon"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/vs_dragon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="33.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvpalico2"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/element_title"
+                android:gravity="center" />
+
+
+            <TextView
+                android:id="@+id/tvpalico3"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ailments_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvpalico4"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/weakness_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvpalico5"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/resistances_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvpalico6"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/locations_title"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvpalico7"
+                style="@style/ListStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/vs_Dragon"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
